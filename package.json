@@ -1,0 +1,11 @@
+{
+  "name": "geobuzz-hackathon-2026",
+  "private": true,
+  "description": "Encrypted participant menu for the GeoBuzz 2026 hackathon",
+  "scripts": {
+    "encrypt": "staticrypt src/index.html --directory docs --short --remember 1 --template-title \"GeoBuzz Hackathon 2026\" --template-instructions \"The password is on your table card.\" --template-button \"Open\" --template-color-primary \"#16365C\" --template-color-secondary \"#F6F7F9\""
+  },
+  "devDependencies": {
+    "staticrypt": "^3.5.0"
+  }
+}

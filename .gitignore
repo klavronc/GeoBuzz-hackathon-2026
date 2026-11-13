@@ -1,0 +1,5 @@
+# The unencrypted page holds the keys: never commit it.
+src/index.html
+# StatiCrypt writes a salt file; harmless, but keep the repo clean.
+.staticrypt.json
+node_modules/
